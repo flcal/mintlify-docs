@@ -133,9 +133,6 @@
     "family": "Inter",
     "weight": 300
   },
-  "icons": {
-    "library": "fontawesome"
-  },
   "styling": {
     "eyebrows": "breadcrumbs",
     "latex": false
