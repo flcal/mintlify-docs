@@ -22,15 +22,14 @@
     "tabs": [
       {
         "tab": "Developer tools",
-        "icon": "square-terminal",
+       
         "menu": [
           {
             "item": "API reference",
-            "icon": "rocket",
-            "groups": [
+                        "groups": [
               {
                 "group": "Core endpoints",
-                "icon": "square-terminal",
+                
                 "pages": [
                   "api-reference/get",
                   "api-reference/post",
@@ -41,7 +40,7 @@
           },
           {
             "item": "SDKs",
-            "icon": "code",
+            
             "description": "SDKs are used to interact with the API.",
             "pages": [
               "sdk/fetch",
@@ -55,7 +54,7 @@
     "anchors": [
       {
         "anchor": "Documentation",
-        "icon": "book-open",
+        
         "pages": [
           "quickstart",
           "development",
@@ -64,7 +63,7 @@
       },
       {
         "anchor": "API reference",
-        "icon": "square-terminal",
+        
         "pages": [
           "api-reference/get",
           "api-reference/post",
@@ -145,6 +144,11 @@
       "dark": "#3a2f2f"
     }
   },
+  "icons": {
+
+  "library": "lucide"
+
+},
   "errors": {
     "404": {
       "redirect": false
@@ -174,12 +178,12 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "icon": "book-open-cover",
+          
           "href": "https://mintlify.com/docs"
         },
         {
           "anchor": "Blog",
-          "icon": "newspaper",
+         
           "href": "https://mintlify.com/blog"
         }
       ]
