@@ -1,5 +1,4 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
   "theme": "sequoia",
   "name": "Mintlify Starter Kit",
   "colors": {
@@ -7,154 +6,23 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-
-      {
-
-        "tab": "Connect",
-
-        "menu": [
-
-          {
-
-            "item": "Connect to Neon",
-
-            "pages": [
-
-              "connect/introduction",
-
-              "connect/create-project",
-
-              "connect/connection-string"
-
-            ]
-
-          },
-
-          {
-
-            "item": "Clients & tools",
-
-            "pages": [
-
-              "connect/psql",
-
-              "connect/dbeaver",
-
-              "connect/prisma"
-
-            ]
-
-          },
-
-          {
-
-            "item": "Troubleshooting",
-
-            "pages": [
-
-              "connect/errors",
-
-              "connect/network"
-
-            ]
-
-          }
-
-        ]
-
-      },
-
-      {
-
-        "tab": "Develop",
-
-        "menu": [
-
-          {
-
-            "item": "Frontend & Frameworks",
-
-            "pages": [
-
-              ...
-
-            ]
-
-          },
-
-          {
-
-            "item": "Languages",
-
-            "pages": [
-
-              ...
-
-            ]
-
-          },
-
-          {
-
-            "item": "ORMs",
-
-            "pages": [
-
-              ...
-
-            ]
-
-          }
-
-        ]
-
-      }
-
-    ]
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      },
-      "titelpage"
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "favicon": "/favicon.svg",
+  "background": {
+    "decoration": "windows",
+    "color": {
+      "light": "#F0EEE9",
+      "dark": "#111111"
+    }
+  },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:hi@mintlify.com",
+        "label": "Support"
       },
       {
         "href": "/logo",
@@ -170,18 +38,6 @@
       "label": "Dashboard",
       "href": "https://app.mintlify.com"
     }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
   },
   "footer": {
     "socials": {
@@ -221,19 +77,16 @@
       }
     ]
   },
-  "background": {
-    "decoration": "windows",
-    "color": {
-      "light": "#F0EEE9",
-      "dark": "#111111"
-    }
+  "fonts": {
+    "family": "Inter",
+    "weight": 300
   },
   "icons": {
     "library": "fontawesome"
   },
-  "fonts": {
-    "family": "Inter",
-    "weight": 300
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "latex": false
   },
   "banner": {
     "content": "Now on!",
@@ -243,19 +96,61 @@
       "dark": "#3a2f2f"
     }
   },
-  "metadata": {
-    "timestamp": false
-  },
-  "interaction": {
-    "drilldown": true
-  },
   "errors": {
     "404": {
       "redirect": false
     }
   },
-  "styling": {
-    "eyebrows": "breadcrumbs",
-    "latex": false
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ],
+    "display": "toc"
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      "titelpage"
+    ]
   }
 }
