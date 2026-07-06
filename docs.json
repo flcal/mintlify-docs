@@ -51,7 +51,7 @@
           }
         ]
       }
-    ]
+    ],
     "anchors": [
       {
         "anchor": "Documentation",
@@ -75,7 +75,7 @@
         "anchor": "Blog",
         "href": "https://external-link.com/blog"
       }
-    ]
+    ],
     "links": [
       {
         "href": "mailto:hi@mintlify.com",
