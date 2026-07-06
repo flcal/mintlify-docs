@@ -1,0 +1,156 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "sequoia",
+  "name": "Mintlify Starter Kit",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "pages": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      "titelpage"
+    ],
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "href": "https://mintlify.com/docs",
+          "icon": "book-open-cover"
+        },
+        {
+          "anchor": "Blog",
+          "href": "https://mintlify.com/blog",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      },
+      {
+        "href": "/logo",
+        "label": "Get started"
+      },
+      {
+        "href": "/logo",
+        "label": "About"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://app.mintlify.com"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    },
+    "links": [
+      {
+        "header": "Social",
+        "items": [
+          {
+            "label": "Git",
+            "href": "/logo"
+          },
+          {
+            "label": "X",
+            "href": "/logo"
+          },
+          {
+            "label": "Sozial",
+            "href": "/logo"
+          }
+        ]
+      },
+      {
+        "header": "Website",
+        "items": [
+          {
+            "label": "About",
+            "href": "/logo"
+          },
+          {
+            "label": "Legal",
+            "href": "/logo"
+          }
+        ]
+      }
+    ]
+  },
+  "background": {
+    "decoration": "windows",
+    "color": {
+      "light": "#F0EEE9",
+      "dark": "#111111"
+    }
+  },
+  "icons": {
+    "library": "fontawesome"
+  },
+  "fonts": {
+    "family": "Inter",
+    "weight": 300
+  },
+  "banner": {
+    "content": "Now on!",
+    "dismissible": true,
+    "color": {
+      "light": "#e6a1a1",
+      "dark": "#3a2f2f"
+    }
+  },
+  "metadata": {
+    "timestamp": false
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "errors": {
+    "404": {
+      "redirect": false
+    }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "latex": false
+  }
+}
