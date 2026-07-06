@@ -9,6 +9,111 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "tabs": [
+
+      {
+
+        "tab": "Connect",
+
+        "menu": [
+
+          {
+
+            "item": "Connect to Neon",
+
+            "pages": [
+
+              "connect/introduction",
+
+              "connect/create-project",
+
+              "connect/connection-string"
+
+            ]
+
+          },
+
+          {
+
+            "item": "Clients & tools",
+
+            "pages": [
+
+              "connect/psql",
+
+              "connect/dbeaver",
+
+              "connect/prisma"
+
+            ]
+
+          },
+
+          {
+
+            "item": "Troubleshooting",
+
+            "pages": [
+
+              "connect/errors",
+
+              "connect/network"
+
+            ]
+
+          }
+
+        ]
+
+      },
+
+      {
+
+        "tab": "Develop",
+
+        "menu": [
+
+          {
+
+            "item": "Frontend & Frameworks",
+
+            "pages": [
+
+              ...
+
+            ]
+
+          },
+
+          {
+
+            "item": "Languages",
+
+            "pages": [
+
+              ...
+
+            ]
+
+          },
+
+          {
+
+            "item": "ORMs",
+
+            "pages": [
+
+              ...
+
+            ]
+
+          }
+
+        ]
+
+      }
+
+    ]
     "pages": [
       {
         "group": "Getting Started",
